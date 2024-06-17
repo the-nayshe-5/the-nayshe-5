@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/index.css" />
+  <title>Home - Naysah Sheikh</title>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li id="travel-option"><a href="#Travel">Travel</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="hero-header">
+        
+        <div class="welcome">
+            Hi, I am <br />
+            Naysah Sheikh!
+        </div>
+
+        <div class="pfp-holder">
+            <img src="./img/pfp1.jpg" />
+        </div>
+
+        <div class="intro">
+            Data Analyst | UI Designer | 
+            Front-End Developer
+        </div>
+    </div>
+
+
+    <div class="heading" id="Projects">
+        <div class="title_lines">
+            Projects
+        </div>
+    </div>
+
+    <div class="container1">
+
+        <div class="card">
+            <a href="./data_analytics.html">
+                <img src="./img/data-analysis-logo.png" class="logo" />
+                <div class="title">
+                    Data Analytics
+                </div>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="#">
+                <img src="./img/front-end-logo.png" class="logo" />
+                <div class="title">
+                    Front-End Dev
+                </div>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="#">
+                <img src="./img/react-logo.png" class="logo" />
+                <div class="title">
+                    React.js Apps &nbsp;
+                </div>
+            </a>
+        </div>
+
+        <div class="more card">
+            <a href="./projects.html">
+                <div class="title">
+                    See <br>
+                    More >
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="heading" id="About">
+        <div class="title_lines">
+            About Me
+        </div>
+    </div>
+
+    <div class="container2">
+        My first Python class as a high-school junior and I was falling in love. That class decided my fate 
+        and has led me to what I am today - a <b>Data Analyst</b> and a <b>Front-End Developer</b> - and I have never looked 
+        back. Proficient in <b>data collection, analytics and visualisation</b>, I also have experience in <b>business and 
+        financial analysis</b>, providing viable, evidence-driven solutions. 
+        I also <b>design and build websites</b> because I couldn't have found a better outlet for my creative side.
+        Other than spending my time coding, I also <b>design cards, posters, etc.</b> and <b>love to draw</b>.
+        I am an <b>avid romance novel reader</b> and a <b>globetrotter</b>, having made my way through almost of India and explored
+        a few other countries as well. <br>
+        <br>
+
+        <b>Presently pursuing my Bachelors in Technology as a 3rd Year Computer Science Engineering Student, I am 
+        available for short-term projects or part-time jobs for the long run.</b>
+
+    </div>
+
+    <div class="buttons">
+        <a href="./Resume.pdf" target="_blank">
+            <div class="btn">
+                My Resume >
+            </div>
+        </a>
+
+        <a href="#Contact">
+            <div class="btn">
+                Get in Touch >
+            </div>
+        </a>
+    </div>
+
+    <div class="heading" id="Travel">
+        <div class="title_lines">
+            My Travels
+        </div>
+    </div>
+
+    <div class="slideshow">
+        <button onclick="prevSlide()" class="slide-btn">&lt;</button>
+        <div class="slide">
+            <div id="image-container">
+                <img src="./img/pfp1.jpg" id="img" />
+            </div>
+            <div class="caption">
+                <div id="location">Srinagar, India</div>
+                <div id="subtitle">Hometown</div>
+            </div>
+        </div>
+        <div id="description">
+            <i>"Agar firdaus bar roo-e zameen ast, 
+                Hameen ast-o hameen ast-o hameen ast."</i> 
+            I was born and spent majority of my childhood in Kashmir, 
+            eagerly waiting for the body-numbing snow-fights during hot summers and 
+            craving the heat of the Sun during the cold winters. 🥰
+            <br><u><i>Pic: Dal Lake</i></u>
+        </div>
+        <button onclick="nextSlide()" class="slide-btn">&gt;</button>
+      </div>
+
+
+    <div class="heading" id="Contact">
+        <div class="title_lines">
+            Contact
+        </div>
+    </div>
+
+    <div class="container3">
+
+        <div class="sub">
+            Interested in working together? I'd love to hear from you.
+        </div>
+
+        <form action="#" class="container4">
+            <div class="inputs">
+                <label>
+                    Name: 
+                </label>
+                <input type="text" name="name" placeholder="Enter your Name" required />
+            </div>
+
+            <div class="inputs">
+                <label>
+                    Email: 
+                </label>
+                <input name="email" placeholder="Enter your Email" required />
+            </div>
+
+            <div class="inputs">
+                <label>
+                    Message: 
+                </label>
+                <textarea name="message" id="textarea" required ></textarea>
+            </div>
+
+            <button type="submit" id="submit">SUBMIT</button>
+        </form>   
+
+    </div>
+
+    <div class="container6">
+        <div id="socials">
+            Socials
+        </div>
+
+        <div class="container5">
+            <a href="" class="deet">
+                <div class="creds">
+                    <img src="#" class="icon" />
+                    <div class="text">
+                        naysahsheikh05@gmail.com
+                    </div>
+                </div>
+            </a>
+            
+            <a href="" class="deet">
+                <div class="creds">
+                    <img src="#" class="icon" />
+                    <div class="text">
+                        Naysah Sheikh
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="deet">
+                <div class="creds">
+                    <img src="#" class="icon" />
+                    <div class="text">
+                        the.nayshe_5
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="deet">
+                <div class="creds">
+                    <img src="#" class="icon" />
+                    <div class="text">
+                        Naysah Sheikh
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+        
+    <hr>
+
+    <footer> &copy; Naysah Sheikh </footer>
+    <script src="index.js"></script>
+</body>
+</html>
