@@ -1,7 +1,8 @@
 - 👋 Hi, I’m @the-nayshe-5
-- 👀 Front-end and UI Developer || Full-Stack Developer-in-learning
-- 🌱 I have a fascination with puzzles, art, coding, calligraphy and novels.
-- 💞️ I’m looking to collaborate on Web Development. I am proficient in Java, Python, C, C++, HTML, CSS, JavaScript, TailwindCSS and React.js.
+- 👀 Data Analyst || Python-enthusiast || ML-Engineer in-learning || Front-End Developer
+- 🌱 I have a fascination with numbers, puzzles, art, coding, calligraphy and novels.
+- 💞️ I’m looking to collaborate on Data Analytics as well as Web Development Projects.
+- I am proficient in Python, SQL, Tableau, Java, C, C++, HTML, CSS, JavaScript, TailwindCSS and React.js.
 - 📫 You can reach out to me at my mail naysahsheikh05@gmail.com :)
 
 <!---
