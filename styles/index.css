@@ -18,10 +18,10 @@ html, body {
 ul {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    padding: 2px;
-    gap: 10px;
+    padding: 2px 15px;
+    /* gap: 25px; */
     list-style: none;
 }
 
@@ -319,9 +319,9 @@ input {
     margin-bottom: 10px;
 }
 
-.container6 {
+.container5 {
     background-color: #000000;
-    padding: 10px 20px;
+    padding: 5px 20px;
 }
 
 #socials {
@@ -330,11 +330,12 @@ input {
     text-decoration: underline;
 }
 
-.container5 {
+.container6 {
     margin: 0px 20px;
     margin-bottom: 30px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     flex-wrap: wrap;
     gap: 10px;
 }
@@ -342,7 +343,8 @@ input {
 .deet {
     color: azure;
     width: 100%;
-    max-width: 300px;
+    min-width: 220px;
+    max-width: 260px;
     align-items: baseline;
     justify-content: baseline;
     padding: 10px;
@@ -362,8 +364,15 @@ input {
     gap: 10px;
 }
 
+.icon {
+    background-color: aliceblue;
+    width: 30px;
+    height: 30px;
+}
+
 hr {
     color: azure;
+    background-color: #000000;
 }
 
 footer {
