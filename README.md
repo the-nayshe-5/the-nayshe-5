@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @the-nayshe-5
-- 👀 Data Analyst || Python-enthusiast || ML-Engineer in-learning || Front-End Developer
+- 👀 Quantitative Strategist in the making || Data Scientist || Python-enthusiast || Front-End Developer
 - 🌱 I have a fascination with numbers, puzzles, art, coding, calligraphy and novels.
 - 💞️ I’m looking to collaborate on Data Analytics as well as Web Development Projects.
 - I am proficient in Python, SQL, Tableau, Java, C, C++, HTML, CSS, JavaScript, TailwindCSS and React.js.
